@@ -17,6 +17,8 @@ print(Pozdrowienia(input('podaj język ')), 'My Darling')
 Okazało się, że umieszczanie polecenia PRINT wewnątrz zdefiniowanej funkcji nie nalezy do dobrych praktyk i niepotrzebnie się wtedy rozszalałem. Dużo lepiej jest skorzystać z polecenia RETURN, które ZWRACA wynik do wykorzystania.
 
 ```
+    if jezyk == 'polski':
+        return 'Witaj'
 
 ```
 
