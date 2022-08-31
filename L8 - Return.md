@@ -19,7 +19,6 @@ Okazało się, że umieszczanie polecenia PRINT wewnątrz zdefiniowanej funkcji 
 ```
     if jezyk == 'polski':
         return 'Witaj'
-
 ```
 
 To na górze oznacza, że jeżeli parametrem funkcji Pozdrowienia będzie ‘polski’, wtedy cała funkcja da wynik ‘Witaj’, ale nic się nie zadzieje dopóki nie wywołamy funkcji np. poprzez PRINT.
